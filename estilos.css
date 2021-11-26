@@ -1,0 +1,96 @@
+
+                    * {
+                        margin: 1px;
+                        padding: 1px;
+ }
+                                        
+                    body {
+                    background-color: rgba(85, 107, 47, 0.87);
+                    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+
+                    }
+                    
+                    h2 {
+                        text-align: center;
+                    }
+                    h1{
+                    color: burlywood;
+                 }
+                    
+                 header {
+                    
+                       background-image: url(bosque.jpg)opacity 0.4;
+                       text-align: center;
+                       height: 150px;
+                       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif: ;
+                       
+                   
+                    }
+                    nav{
+                        background-color: bisque;
+                    
+                    }
+                    ul {
+                        display:flex;
+
+                       justify-content:space-around;
+                    }
+                    
+                    main {
+                        
+                        width: 80%;
+                        padding: 1px;
+                        margin: 1px;   
+                        
+                    }
+                    
+                    .descripcion {
+                        align-items: left;
+                        background-color: aquamarine;
+                
+                    }
+                    .img {
+                       
+                    }
+                    .recetas {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: cornflowerblue;
+                    margin-top:2px ;
+                    margin-bottom:2px ;
+                }
+                    
+                    .receta1 {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        align-items: center;
+                    }
+                    
+                    .receta2 {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                    
+                    .ingredientes {
+                        background-color: rgb(134, 134, 248);
+                        
+                    }
+                    
+                    .preparacion {
+                        background-color: antiquewhite;
+                        width: 30%;
+                        
+                    }
+                    footer {
+                        background-color: rgba(184, 135, 11, 0.692);
+                        
+                        height: 50px;
+                    }
+                    aside {
+                        background-color: chocolate;
+                    }
